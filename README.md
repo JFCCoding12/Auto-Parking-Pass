@@ -4,10 +4,10 @@ __________________________________________________________________
 # How to install and run
 
 Download project
-`git clone && cd Auto-Parking-Pass`
+`git clone https://github.com/JFCCoding12/Auto-Parking-Pass.git && cd Auto-Parking-Pass`
 
 Needs splinter to run. Install by running this command
 `pip install splinter`
 
 Then run ParkingPass.py
-`python ParkingPass.py
+`python ParkingPass.py`
