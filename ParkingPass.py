@@ -1,6 +1,5 @@
 from splinter import Browser
-import schedule
-import time
+
 ''' 
 Made By Jacob Folsom 
 
