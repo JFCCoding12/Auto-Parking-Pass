@@ -11,7 +11,8 @@ Download project
 ```
 git clone https://github.com/JFCCoding12/Auto-Parking-Pass.git && cd Auto-Parking-Pass
 ```
-Add your information to the top of ParkingPass.py and save
+Add your information to the top of ParkingPass.py and save 
+
 Then run ParkingPass.py
 ```
 python ParkingPass.py
