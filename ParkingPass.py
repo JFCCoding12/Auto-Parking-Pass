@@ -1,7 +1,11 @@
 from splinter import Browser
 import schedule
 import time
-''' Fill in the information below before running'''
+''' 
+Made By Jacob Folsom 
+
+Fill in the information below before running
+'''
 
 Studentid = 'Your Info'
 name = 'Your Info'
