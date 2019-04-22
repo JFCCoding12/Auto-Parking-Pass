@@ -30,14 +30,14 @@ Insurance_PolicyNum = 'Your Info'
 Policy_Exp_Date = 'Your Info' #Must be in this format mmddyyyy
 
 browser = Browser('chrome')
-url = "https://cesi.reportexecdirect.com/Norwich/CESIReportExec/opr/OPRMain.aspx?IsAuth=1&groupid=102&groupname=PUBLIC+SAFETY"
+url = "https://app4.omnigo.com/Norwich/CESIReportExec/OPR/OPRMain.aspx?IsAuth=1&groupid=102&groupname=PUBLIC+SAFETY"
 browser.visit(url)
 # Find and click the 'search' button
 # Interact with elements
 
 
 browser.find_by_id('ddPermitType').first
-browser.find_option_by_text('STUDENT PARKING PERMIT').first.click()
+browser.find_option_by_text('STUDENT FULL YEAR PARKING PERMIT').first.click()
 browser.find_by_id('ddpermitPeriod').first
 browser.find_option_by_text('ANNUAL').first.click()
 browser.find_by_id('ddpermitRegistrationType').first
